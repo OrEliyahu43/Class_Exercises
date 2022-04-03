@@ -1,0 +1,180 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: gainsboro;
+      }
+      .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: cadetblue;
+        padding: 1rem;
+      }
+      .navbar_ul {
+        list-style: none;
+        display: flex;
+      }
+      .navbar_ul li {
+        font-size: 20px;
+        margin: 0 1rem;
+        padding: 0.5rem 1rem;
+        color: black;
+      }
+      .navbar_ul li:hover {
+        background-color: rgb(135, 159, 160);
+        border-radius: 10%;
+        color: rgb(56, 56, 56);
+      }
+      .navbar_logo {
+        padding: 0.5rem;
+        text-transform: uppercase;
+      }
+      .title {
+        padding: 2rem 0;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .section {
+        display: flex;
+      }
+      .section_main {
+        width: 70%;
+      }
+      .section_aside {
+        padding: 0 3rem;
+        width: 30%;
+        line-height: 2;
+      }
+      img {
+        width: 20%;
+        object-fit: cover;
+      }
+      .article {
+        padding: 3rem;
+        display: flex;
+      }
+      .article p {
+        margin: 0 1rem;
+        font-size: 1rem;
+      }
+      @media (max-width: 768px) {
+        .section_aside {
+          display: none;
+        }
+        .section_main {
+          width: 100%;
+        }
+        .navbar {
+          flex-direction: column;
+          align-items: center;
+        }
+        .navbar_ul {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="navbar_logo">Gatito's</h2>
+        <ul class="navbar_ul">
+          <li>Home</li>
+          <li>Donate</li>
+          <li>About</li>
+        </ul>
+      </nav>
+      <h1 class="title">Cats adoption site</h1>
+    </header>
+    <section class="section">
+      <aside class="section_aside">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint
+        molestias alias quae fuga error nisi est, reprehenderit, autem ipsa
+        debitis voluptatum eveniet? Quaerat, ut exercitationem sint voluptatum
+        sed tempora! Rerum accusantium possimus rem tempora sunt. Unde
+        temporibus velit nihil? Blanditiis dolore laboriosam dolor iure cumque
+        dolorem quis beatae sed sapiente, iusto asperiores mollitia, repudiandae
+        deleniti illum amet eveniet earum! Saepe, ullam inventore odit quos
+        laboriosam voluptatum aliquam placeat voluptatem fugiat dolorem sit
+        magni harum possimus incidunt beatae sed, officia odio ducimus tenetur!
+        Expedita nostrum eius dolor voluptates cum officiis! Sed illo
+        consequuntur facilis, fugit similique ea quis culpa laborum fuga.
+        Distinctio illo deleniti debitis, praesentium ipsam aspernatur deserunt
+        dignissimos repellendus doloribus eius, esse sequi pariatur hic
+        reiciendis consequuntur eos. Aspernatur omnis molestiae tenetur
+        accusamus, quia aut nemo id totam autem nostrum, nulla consequuntur
+        consequatur? Amet assumenda deleniti perspiciatis. Distinctio quis
+        impedit inventore placeat nobis repudiandae, aspernatur deleniti
+        praesentium aliquam! Illum libero numquam iusto necessitatibus quas quo
+        molestias blanditiis voluptate id rerum suscipit, praesentium officia
+        ullam dolores neque expedita ut consectetur quia nemo aperiam eum.
+        Placeat, autem! Dolorem, eum placeat. Cupiditate maxime, quasi culpa
+        minus aliquam eveniet delectus. Non accusantium, soluta ipsum eveniet ad
+        doloremque laudantium officiis optio distinctio cumque, natus molestias.
+        Eligendi dolorum qui debitis non, earum soluta sunt?
+      </aside>
+      <main class="section_main">
+        <article class="article">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/BOSOM_BUDDIES.jpg/1200px-BOSOM_BUDDIES.jpg"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            obcaecati magni aspernatur non nulla modi, omnis natus. Perspiciatis
+            delectus et aperiam nihil ab eum eos ipsa, provident deserunt
+            tenetur quia.olor sit amet consectetur adipisicing elit. Eveniet
+            obcaecati magni aspernatur non nulla modi, omnis natus. Perspiciatis
+            delectus et aperiam nihil ab eum eos ipsa, provident deserunt
+            tenetur quia.
+          </p>
+        </article>
+        <article class="article">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/BOSOM_BUDDIES.jpg/1200px-BOSOM_BUDDIES.jpg"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            obcaecati magni aspernatur non nulla modi, omnis natus. Perspiciatis
+            delectus et aperiam nihil ab eum eos ipsa, provident deserunt
+            tenetur quia.olor sit amet consectetur adipisicing elit. Eveniet
+            obcaecati magni aspernatur non nulla modi, omnis natus. Perspiciatis
+            delectus et aperiam nihil ab eum eos ipsa, provident deserunt
+            tenetur quia.
+          </p>
+        </article>
+        <article class="article">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/BOSOM_BUDDIES.jpg/1200px-BOSOM_BUDDIES.jpg"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            obcaecati magni aspernatur non nulla modi, omnis natus. Perspiciatis
+            delectus et aperiam nihil ab eum eos ipsa, provident deserunt
+            tenetur quia.olor sit amet consectetur adipisicing elit. Eveniet
+            obcaecati magni aspernatur non nulla modi, omnis natus. Perspiciatis
+            delectus et aperiam nihil ab eum eos ipsa, provident deserunt
+            tenetur quia.
+          </p>
+        </article>
+      </main>
+    </section>
+  </body>
+</html>

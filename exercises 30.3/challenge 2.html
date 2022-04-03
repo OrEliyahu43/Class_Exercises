@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home Page in 20 min</title>
+	</head>
+	<style>
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			font-family: sans-serif;
+		}
+
+		.navbar {
+			/* display: flex; */
+			position: relative;
+			width: 100%;
+		}
+
+		.background {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			z-index: -1;
+			background-color: rgba(81, 81, 232);
+			opacity: 0.1;
+			width: 100%;
+			height: 100%;
+		}
+
+		.navbar .navbar-list {
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+			display: flex;
+		}
+
+		.navbar .navbar-list li {
+			padding: 40px;
+			cursor: pointer;
+		}
+
+		.navbar .navbar-list li:hover {
+			background-color: rgb(122, 122, 189);
+			color: white;
+		}
+		.navbar .navbar-list li a {
+			color: inherit;
+			text-decoration: none;
+			font-size: 24px;
+			text-transform: capitalize;
+		}
+
+		.main-header {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.main-header h1 {
+			text-align: center;
+			font-size: 45px;
+			text-transform: capitalize;
+			border: 10px dotted rgb(122, 122, 189);
+			padding: 100px;
+			border-radius: 50%;
+		}
+		.commercials-wrapper {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+		.img-commercials img {
+			width: 400px;
+			height: 500px;
+		}
+
+		.sections-wrapper {
+			display: flex;
+			align-items: center;
+			flex-direction:column;
+		}
+
+		.sections-wrapper section {
+			width: 80%;
+		}
+
+		.img-commercials figcaption {
+			font-size: 18px;
+			font-weight: bold;
+			text-decoration: 1px underline solid;
+			text-align: center;
+		}
+
+		.about-me-wrapper {
+			display: flex;
+			align-items: flex-start;
+			gap: 30px;
+			justify-content: center;
+			padding: 100px;
+		}
+
+		#about-me img {
+			width: 300px;
+			height: 400px;
+		}
+		#about-me p {
+			max-width: 500px;
+			text-align: start;
+			margin: 0px;
+		}
+	</style>
+	<body>
+		<nav class="navbar">
+			<div class="background"></div>
+			<ul class="navbar-list">
+				<li><a href="#about-me">about</a></li>
+				<li><a href="#commercials">commercials</a></li>
+				<li><a href="https://google.com">more-info</a></li>
+			</ul>
+		</nav>
+		<header class="main-header">
+			<h1>home page</h1>
+		</header>
+		<main>
+			<div class="sections-wrapper">
+				<section id="about-me">
+					<div class="about-me-wrapper">
+						<img src="./assets/pexels-brady-knoll-3369569.jpg" alt="" />
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro illo itaque modi amet laborum maxime dicta
+							mollitia veritatis recusandae architecto consequuntur, possimus accusamus vel dolorem cupiditate! Commodi
+							enim autem, voluptatibus, pariatur, temporibus labore facere cum explicabo deserunt inventore ipsum.
+						</p>
+					</div>
+				</section>
+				<section id="commercials">
+					<div class="commercials-wrapper">
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-brady-knoll-3369569.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-cottonbro-4058794.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-elle-hughes-1549196.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-nadi-lindsay-4865603.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-negative-space-160107.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-pixabay-270360.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-tomáš-malík-1998439.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-valdemaras-d-2273642.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+						<div class="img-commercials">
+							<figure>
+								<img src="./assets/pexels-yaroslav-shuraev-5084674.jpg" alt="" />
+								<figcaption>Lorem ipsum dolor sit amet.</figcaption>
+							</figure>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+	</body>
+</html>

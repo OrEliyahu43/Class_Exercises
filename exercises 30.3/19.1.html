@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(171, 171, 240);
+        position: relative;
+      }
+      /* .box::after {
+        content: "";
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        background-color: bisque;
+        transform: translateX(100%);
+        animation: boxo 1s ease-in-out;
+      } */
+      @keyframes boxi {
+        from {
+          background-color: bisque;
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(0%);
+          background-color: blue;
+        }
+      }
+      @keyframes boxo {
+        to {
+          background-color: bisque;
+          transform: translateX(100%);
+        }
+        from {
+          transform: translateX(0%);
+          background-color: blue;
+        }
+      }
+      .box:hover:after {
+        animation: boxi 1s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

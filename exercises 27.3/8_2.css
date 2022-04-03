@@ -1,0 +1,42 @@
+.btn-4{
+
+    background-color: rgb(246, 113, 3);
+    padding:10px 40px;
+    color:white;
+    border-radius: 10px;
+}
+.btn-5{
+
+    background-color: rgb(255, 230, 0);
+    padding:7px 20px;
+    color:white;
+    border-radius: 10px;
+}
+.btn-6{
+
+    background-color: rgb(126, 119, 119);
+    padding:3px 20px;
+    color:white;
+    border-radius: 10px;
+}
+.btn-10{
+
+    border:2px solid rgb(246, 113, 3);
+    padding:10px 40px;
+    color:white;
+    border-radius: 10px;
+}
+.btn-11{
+
+    border:2px solid rgb(255, 230, 0);
+    padding:7px 20px;
+    color:white;
+    border-radius: 10px;
+}
+.btn-12{
+
+    border:2px solid rgb(126, 119, 119);
+    padding:3px 20px;
+    color:white;
+    border-radius: 10px;
+}

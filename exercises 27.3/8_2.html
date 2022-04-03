@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Menu Styling</title>
+  <link rel="stylesheet" href="./8_2.css">
+  <style>
+    body {
+        background-image: url("https://img.freepik.com/free-vector/programing-code_46706-497.jpg");
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Navbar Styling */
+    .navbar {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: #4c6ca0;
+      border-radius: 5px;
+      /* overflow: auto; */
+    }
+
+    .navbar li {
+      float: left;
+    }
+
+    .navbar li a {
+      /* display: block; */
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 20px;
+    }
+
+    .navbar li a:hover {
+      background-color: #446190;
+      color: #f4f4f4;
+    }
+
+    /* Side Menu Styling */
+    .side-menu {
+      list-style: none;
+      border: 1px #ddd solid;
+      border-radius: 10px;
+      width: 300px;
+      padding: 20px;
+    }
+
+    .side-menu li {
+      font-size: 18px;
+      line-height: 2.4em;
+    }
+    
+    
+
+    .side-menu li:last-child {
+      border: none;
+    }
+
+    .side-menu li a {
+      color: rgb(194, 4, 194);
+      text-decoration: none;
+    }
+
+    .side-menu li a:hover {
+      color: coral;
+    }
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+    <li><a class="btn-10" href="#">Home</a></li>
+    <li><a class="btn-11" href="#">About</a></li>
+    <li><a class="btn-12" href="#">Services</a></li>
+    <li><a class="btn-4" href="#">Contact</a></li>
+    <li><a class="btn-5" href="#">bootcamp</a></li>
+    <li><a class="btn-6" href="#">Coding</a></li>
+  </ul>
+  <br><br>
+  <ul class="side-menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</body>
+</html>
