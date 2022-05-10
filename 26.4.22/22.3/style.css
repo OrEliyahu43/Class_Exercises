@@ -1,0 +1,38 @@
+.title{
+    margin-top: 1 rem;
+    font-size: 5rem;
+    text-align: center;
+}
+.monitor h1{
+    font-size: 3rem;
+    margin-top: 10rem;
+    text-align: center;
+
+}
+
+div .letter{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+height: 100px;
+width: 100px;
+border: 2px solid black;
+}
+
+.letter h3{
+    font-size: 2rem;
+}
+
+h2{
+    text-align: center;
+}
+
+#monitor h1{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.monitorGuess{
+    text-align: center;
+    font-size: 30px;
+}
